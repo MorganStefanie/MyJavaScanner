@@ -14,7 +14,7 @@ import java.util
     [deleterecord ("Assistant Manager")char "phillip"];
     system.println()
 }
-    public class Front Service extends Food Management{
+    public static class Front Service extends Food Management{
     int "waiter/waitress";
     add_employee char "vanessa williams",
     char "vick hammerhead",
@@ -23,7 +23,7 @@ import java.util
     delete_employee 
     system.println(front);
 } 
-    public class Table Service extends Front Service{
+    public static class Table Service extends Front Service{
     int "reservation";
     **/
     * table one seats two people
