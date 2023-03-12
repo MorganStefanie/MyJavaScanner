@@ -3,25 +3,19 @@
 import java.util 
     public static class Food Managment {
     int "CEO";
-    add_employee char "vanessa williams",
-    char "vick hammerhead",
-    char "jesse bill",
-    char "phillip point",
-    system.println(employees);
-    [createrecord ("Line Manager")char "vanessa"];
-    [updaterecord ("CEO")char "vick"];
-    [readrecord ("Store Manager")char "jesse"];
-    [deleterecord ("Assistant Manager")char "phillip"];
-    system.println()
+    add_employee char "vanessa williams";"vick hammerhead";"jesse bill";"phillip point";
+    system.out.println(employees);
+    [createrecord ("Line Manager")"vanessa"];
+    [updaterecord ("CEO")"vick"];
+    [readrecord ("Store Manager")"jesse"];
+    [deleterecord ("Assistant Manager")"phillip"];
+    system.out.println()
 }
     public static class Front Service extends Food Management{
     int "waiter/waitress";
-    add_employee char "vanessa williams",
-    char "vick hammerhead",
-    char "jesse bill",
-    char "phillip point",
+    add_employee "vanessa williams";"vick hammerhead";"jesse bill";"phillip point",
     delete_employee 
-    system.println(front);
+    system.out.println(front);
 } 
     public static class Table Service extends Front Service{
     int "reservation";
@@ -32,8 +26,8 @@ import java.util
     **/
     * table three seats twenty people
     **/
-    system.println(reservation)
-    system.println(today menu)
-    system.println(date)
-    system.println(time)
+    system.out.println(reservation)
+    system.out.println(today menu)
+    system.out.println(date)
+    system.out.println(time)
     }
